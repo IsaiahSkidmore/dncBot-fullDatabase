@@ -31,7 +31,7 @@ To set up the application locally, clone this repository and follow the instruct
 
 1. **Clone the Repository**  
    ```bash
-   git clone <repository-url>
+   git clone git@github.com:IsaiahSkidmore/dncBot-fullDatabase.git
    cd dnc-bot
 
 2. **Install Dependencies**
