@@ -51,4 +51,9 @@ coverage/
 
 # Temporary files
 *.tmp
+<<<<<<< HEAD
 *.swp
+=======
+*.swp
+node_modules
+>>>>>>> 0195c9c (full project push minus the readme)
