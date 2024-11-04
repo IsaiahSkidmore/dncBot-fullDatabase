@@ -6,6 +6,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node server.js",
+    "build": "echo \"Error: no build specified\" && exit 1",
     "dev": "nodemon server.js",
     "seedReportAuthority": "cd server && node seeds/issue-authority-seed.js"
   },
