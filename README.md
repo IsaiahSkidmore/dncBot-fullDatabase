@@ -1,6 +1,10 @@
 # DNC Bot ![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
 
-DNC Bot is a web application that provides an interface for adding phone numbers to a Do Not Call (DNC) list. Designed for call centers and telemarketing teams, this tool helps streamline DNC compliance by securely managing phone numbers in a database. Built with TypeScript, React, and Node.js, the app includes authentication, a RESTful API, and a robust backend deployed on Render.
+DNC Bot is a web application that provides an interface for adding phone numbers to a Do Not Call (DNC) list. Designed for call centers and telemarketing teams, this tool helps streamline DNC compliance by securely managing phone numbers in a database.  
+
+Once logged in, you are given the option to either dial a phone number, or add the number to the DNC List. When you dial a number, it will first check to see if it is on the DNC List. If it is in the DNC database, it will let you know that you cannot dial that number. Otherwise it will continue to dial. If a client asks you to add them to the DNC, all you have to do is input their number and press the 'DNC' button, and you will get a confirmation letting you know it has succesfully been add to the DNC!
+
+Built with TypeScript, React, and Node.js, the app includes authentication, a RESTful API, and a robust backend deployed on Render.
 
 ## Features
 
